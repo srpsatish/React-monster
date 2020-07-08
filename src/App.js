@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { CardList } from './components/Card-List/CardList';
 
 
 class App extends Component {
@@ -20,18 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {
-            this.state.monsters.map(monsters => (
-            <h1 key={monsters.id}>{monsters.name}</h1>
-            ))
-          }
-          {/* <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            {this.state.string}
-          </p>
-          <button onClick= {() => this.setState({ string : "Hi I am Satish Singh!"})}>Change It.</button> */}
-        </header>
+        <CardList monsters= {this.state.monsters} />
       </div>
     );
   }
