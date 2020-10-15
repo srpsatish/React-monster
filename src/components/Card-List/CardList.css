@@ -1,10 +1,9 @@
 .card-list {
-    /* width: 85vw; */
+    width: 85vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(auto-fill, minmax(375px, 1fr)); 
     grid-gap: 20px;
     grid-auto-flow: row;
-    margin: 0 2rem;
 } 
