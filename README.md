@@ -15,7 +15,7 @@ Monsters Rolodex web app created using create react-app, react-class-components
 ## Installation
 * `git clone https://github.com/srpsatish/React-monster.git`
 * `cd React-monster`
-* `yarn`
+* `yarn` / `yarn install`
 * `yarn start`
 
 Runs the app in the development mode.<br />
