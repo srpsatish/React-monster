@@ -2,7 +2,7 @@
 
 ## About
 
-Monsters Rolodex web app created using create react-app, react-class-components
+Monsters Rolodex web app created using create-react-app, react-class-components
 
 ## Find monsters from 
 [ROBOHASH](https://robohash.org/)
