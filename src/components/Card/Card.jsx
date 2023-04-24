@@ -3,7 +3,7 @@ import "./Card.css";
 
 export const Card = (props) => {
   return (
-    <div className="card-container">
+    <div className="card-container" tabIndex={0}>
       <img
         alt="monster"
         src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`}
